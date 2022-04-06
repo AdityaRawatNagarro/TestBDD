@@ -26,4 +26,16 @@ Feature: Verifying the data of the user
       | useraccount | billingaddress  | phone         | website          |
       | Mona Mary   | Plot 13 Gurgaon | +91 989989878 | http://abcde.com |
 
+  Scenario Outline: Duplicate As a user I should be able to verify text of the user accounts.
+    When I searched for "<useraccount>" in the search text box
+    Then I should be able to see the searched "<useraccount>" in the results
+    When I clicked the searched "<useraccount>" in the results
+    Then I should be able to see "<useraccount>" name as top heading on Overview Page
+
+    Examples:
+      | useraccount |
+      | Mona Mary   |
+
   #new changes
+  # second commit 
+  # my new changes
