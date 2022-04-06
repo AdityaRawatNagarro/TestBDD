@@ -18,7 +18,7 @@ Feature: Verifying the data of the user
       | Mona Mary   |
 
 
-  Scenario Outline: As a user I should be able to update the details of the user
+  Scenario Outline: As a user I should be able to update the details of the user change
     When I updated the "<billingaddress>", "<phone>" and "<website>" for the searched "<useraccount>"
     Then I should be able to see updated "<billingaddress>" on Overview page
 
