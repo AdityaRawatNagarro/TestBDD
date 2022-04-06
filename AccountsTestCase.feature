@@ -25,3 +25,5 @@ Feature: Verifying the data of the user
     Examples:
       | useraccount | billingaddress  | phone         | website          |
       | Mona Mary   | Plot 13 Gurgaon | +91 989989878 | http://abcde.com |
+
+  #new changes
