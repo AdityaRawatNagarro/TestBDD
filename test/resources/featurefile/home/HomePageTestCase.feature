@@ -9,3 +9,7 @@ Feature: Verification of Calender functionality
   Scenario: As a user I should be able to add Calender on my Homepage.
     When I click Add Calender in Add Widget menu
     Then I should be able see the Calender widget on my homepage
+
+    Scenario: Adding sample file
+    When I click Add Calender in Add Widget menu
+    Then I should be able see the Calender widget on my homepage
